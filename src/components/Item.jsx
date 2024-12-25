@@ -22,7 +22,7 @@ const Item = ({ data }) => {
           </div>
         </div>
         <div className='d-flex aling-items-center g-1'>
-          <img src="../assets/dashboard/database.svg" height={20} width={20} />
+          <img alt="image" src="../assets/dashboard/database.svg" height={20} width={20} />
         
           <span>{data.size}</span>
         </div>

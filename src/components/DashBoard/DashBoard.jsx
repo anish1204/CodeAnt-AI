@@ -99,7 +99,7 @@ const DashBoard = () => {
         } else {
             setFilteredData(data);
         }
-    }, [debouncedSearchTerm]);
+    }, [debouncedSearchTerm,data]);
 
     return (
         <>
@@ -151,7 +151,7 @@ const DashBoard = () => {
                             <ul>
                                 {sidebarButtons.map((button, index) => (
                                     <li className="ind-opt" key={index} onClick={() => handleTabClick(button.text)}>
-                                        <img src={button.imgSrc} width={25} height={25} /> <p>{button.text}</p>
+                                        <img alt="image" src={button.imgSrc} width={25} height={25} /> <p>{button.text}</p>
                                     </li>
                                 ))}
                             </ul>

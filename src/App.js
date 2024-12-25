@@ -8,7 +8,7 @@ const App = () => {
         <div className='data-container'>
           <div className='info-box'>
             <div className='d-flex top-sec'>
-              <img style={{ paddingLeft: '1rem' }} src='./assets/minilogo.svg' />
+              <img alt="image" style={{ paddingLeft: '1rem' }} src='./assets/minilogo.svg' />
               <span className='primary_h' style={{ paddingLeft: '0.5rem' }}>
                 AI to Detect & Autofix Bad Code
               </span>
@@ -44,7 +44,7 @@ const App = () => {
           <div className='intro-card'>
             <div className='d-flex justify-content-between'>
               <div className='p-box'>
-                <img className='z_2' src='./assets/chart.png' width={29} height={29} />
+                <img alt="image" className='z_2' src='./assets/chart.png' width={29} height={29} />
               </div>
               <div className='d-col justify-content-center'>
                 <span className='primary_h secondary'>&#x2191; 14%</span>
@@ -56,7 +56,7 @@ const App = () => {
               <span className='primary_h b_font'>500K+</span>
             </div>
           </div>
-          <img className='left_image' src='./assets/Subtract.svg' height={319} width={284} />
+          <img alt="image" className='left_image' src='./assets/Subtract.svg' height={319} width={284} />
 
         </div>
       </div>
