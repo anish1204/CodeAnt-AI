@@ -130,6 +130,7 @@ body {
 }
 .option_card{
   width: 90%;
+  text-decoration: none;
   border: 1px solid #D8DAE5 ;
   border-radius: 8px;
   display: flex;
@@ -140,6 +141,7 @@ body {
   font-family: "Inter";
   font-size: 16px;
   font-weight: bold;
+  color: black;
 }
 .sign-in-sec{
   height: 500px;

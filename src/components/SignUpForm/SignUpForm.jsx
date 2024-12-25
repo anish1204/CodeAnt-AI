@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import HeaderLogo from '../HeaderLogo';
+import { Link } from 'react-router-dom';
 
 const SignUpForm = () => {
 
@@ -58,22 +59,22 @@ const SignUpForm = () => {
       <div style={{ padding: '20px', borderRadius: '5px' }}>
         {activeTab === 'SAAS' && 
         <div className='d-col option-card-container'>
-            <div className='option_card'>
+            <Link to="/dashboard" className='option_card'>
               <img src='./assets/Icon.svg'  />
               Sign in with Githhub
-            </div>
-            <div className='option_card'>
+            </Link>
+            <Link to="/dashboard" className='option_card'>
               <img src='./assets/Icon1.png'  />
               Sign in with BitBucket
-            </div>
-            <div className='option_card'>
+            </Link>
+            <Link to="/dashboard" className='option_card'>
               <img src='./assets/Icon2.png'  />
               Sign in with Azure Devops
-            </div>
-            <div className='option_card'>
+            </Link>
+            <Link to="/dashboard" className='option_card'>
               <img src='./assets/Icon3.png'  />
               Sign in with GithLab
-            </div>
+            </Link>
 
             
 
