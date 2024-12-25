@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CodeAnt-AI/static/css/main.6ecca69c.css",
+    "main.js": "/CodeAnt-AI/static/js/main.7a7249ac.js",
+    "static/media/Satoshi-Variable.ttf": "/CodeAnt-AI/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
+    "index.html": "/CodeAnt-AI/index.html",
+    "main.6ecca69c.css.map": "/CodeAnt-AI/static/css/main.6ecca69c.css.map",
+    "main.7a7249ac.js.map": "/CodeAnt-AI/static/js/main.7a7249ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ecca69c.css",
+    "static/js/main.7a7249ac.js"
+  ]
+}
