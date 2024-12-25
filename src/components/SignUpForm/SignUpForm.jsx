@@ -20,38 +20,38 @@ const SignUpForm = () => {
       <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       {/* Tabs */}
       <div style={{ display: 'flex', marginBottom: '20px' }}>
-        <button
-        className='primary_h text-white f-16'
-          onClick={() => handleTabClick('SAAS')}
-          style={{
-            padding: '10px 20px',
-            backgroundColor: activeTab === 'SAAS' ? '#007bff' : '#f0f0f0',
-            color: activeTab === 'SAAS' ? 'white' : '#808080',
-            border: '1px solid #fff',
-            borderRadius: '8px',
-            height:'55px',
-            cursor: 'pointer',
-            width:'50%'
-          }}
-        >
-          SAAS
-        </button>
-        <button
-        className='primary_h text-white f-16'
-          onClick={() => handleTabClick('Self Hosted')}
-          style={{
-            padding: '10px 20px',
-            backgroundColor: activeTab === 'Self Hosted' ? '#007bff' : '#f0f0f0',
-            color: activeTab === 'Self Hosted' ? 'white' : '#808080',
-            border: '1px solid #fff',
-            borderRadius: '8px',
-            height:'55px',
-            cursor: 'pointer',
-            width:'50%'
-          }}
-        >
-         Self Hosted
-        </button>
+      <button
+  className='primary_h f-16'
+  onClick={() => handleTabClick('SAAS')}
+  style={{
+    padding: '10px 20px',
+    backgroundColor: activeTab === 'SAAS' ? '#007bff' : '#f0f0f0',
+    color: activeTab === 'SAAS' ? 'white' : '#414651', // Updated color for inactive tab
+    border: '1px solid #fff',
+    borderRadius: '8px',
+    height: '55px',
+    cursor: 'pointer',
+    width: '50%',
+  }}
+>
+  SAAS
+</button>
+<button
+  className='primary_h f-16'
+  onClick={() => handleTabClick('Self Hosted')}
+  style={{
+    padding: '10px 20px',
+    backgroundColor: activeTab === 'Self Hosted' ? '#007bff' : '#f0f0f0',
+    color: activeTab === 'Self Hosted' ? 'white' : '#414651', // Updated color for inactive tab
+    border: '1px solid #fff',
+    borderRadius: '8px',
+    height: '55px',
+    cursor: 'pointer',
+    width: '50%',
+  }}
+>
+  Self Hosted
+</button>
       </div>
 
       {/* Content */}
